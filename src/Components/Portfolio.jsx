@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/goose.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "a close up of a goose with yellow beak being shown from right side";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Iris Classification using KNN Algorithm",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Machine learning project using K- nearest neighbour algorithm to classify the iris flower species. The model is trained and tested on the Iris dataset and the accuracy of the model is calculated using the confusion matrix.",
+    url: "https://github.com/Suga7772/Iris-Classification-using-KNN",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Fraud-Detection-using-RandomForestClassifier",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Created a card fraud detection model that using random forest classfiier. The model is trained and tested on a csv dataset comprising of 1200 records and the accuracy of the model is calculated using the confusion matrix and a heatmap",
+    url: "https://github.com/Suga7772/Fraud-Detection-using-RandomForestClassifier",
   },
   {
-    title: "My Resume Site",
+    title: "Wine Quality Classification",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Deployed a successful numerous model based on the wine quality dataset. The model is trained and tested with various Regression, XGB classification methods with further visualisation being done using matplotlib.",
+    url: "https://github.com/Suga7772/Wine_Quality_Classification",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Virtual Mouse using Computer Vision",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Implemented a virtual mouse that works on human gestures being observed using a camera and performing drag and drop, click operations on the screen.",
+    url: "https://github.com/Suga7772/cv-virtual.mouse",
   },
 ];
 
